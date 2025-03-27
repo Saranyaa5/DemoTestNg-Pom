@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-27T19:49:27 IST" name="Suite" finished-at="2025-03-27T19:50:18 IST" duration-ms="51413">
+    <groups>
+    </groups>
+    <test started-at="2025-03-27T19:49:27 IST" name="Test" finished-at="2025-03-27T19:50:18 IST" duration-ms="51413">
+      <class name="com.test.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:27 IST" name="setup" finished-at="2025-03-27T19:49:27 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:27 IST" name="setupDriver" finished-at="2025-03-27T19:49:39 IST" duration-ms="12455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:39 IST" name="initializePage" finished-at="2025-03-27T19:49:39 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="verifyHomePageMessage()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:39 IST" name="verifyHomePageMessage" finished-at="2025-03-27T19:49:39 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageMessage -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:39 IST" name="cleanup" finished-at="2025-03-27T19:49:39 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:49:39 IST" name="setupDriver" finished-at="2025-03-27T19:50:17 IST" duration-ms="37626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="clickRegisterButton()[pri:1, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:50:17 IST" name="clickRegisterButton" finished-at="2025-03-27T19:50:18 IST" depends-on-methods="com.test.HomeTest.verifyHomePageMessage" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegisterButton -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:50:17 IST" name="initializePage" finished-at="2025-03-27T19:50:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.test.HomeTest@4b013c76]" started-at="2025-03-27T19:50:18 IST" name="cleanup" finished-at="2025-03-27T19:50:18 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.test.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
